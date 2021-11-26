@@ -7,37 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kostky</title>
     <link rel="icon" href="img/ikona.png" type="image/png">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 
-<body class="bg-dark text-white">
-    <h1 class="text-center jumbotron bg-info display-3"><b>Hra s kostkou</b></h1>
+<body class="text-white bg-dark">
+    <h1 class="text-center jumbotron bg-success display-3"><b>Hra s kostkou</b></h1>
     <div class="container">
         <div class="text-center images">
             <img class="img-fluid kostka" id="cube" src="img/kostka6.png" alt="Kostka">
             <img class="img-fluid kostka2" id="cube2" src="img/kostka6.png" alt="Kostka">
             <img class="img-fluid kostka2" id="cube3" src="img/kostka6.png" alt="Kostka">
         </div>
-        <div class="velikost b" id="money"><b>Peníze: 100</b></div>
-        <div class="velikost b mb-3">Pravidla:
-            <ul>
-                <li>
-                    Hod kostkou: 5 peněz
-                </li>
-                <li>
-                    Výhra: 10 peněz
-                </li>
-                <li>
-                    Výhra nastává pokud je součet hodů 12 a více.
-                </li>
-            </ul>
+            <div class="velikost b" id="money"><b>Peníze: 100</b></div>
+            <div class="velikost b mb-3">Pravidla:
+                <ul>
+                    <li>
+                        Hod kostkou: 5 peněz
+                    </li>
+                    <li>
+                        Výhra: 10 peněz
+                    </li>
+                    <li>
+                        Výhra nastává pokud je součet hodů 12 a více.
+                    </li>
+                </ul>
+            </div>
+            <button class="text bg-success" id="play">Hraj</button>
+            <hr>
+            <div class="velikost" id="result">Výsledek</div>
         </div>
-        <div class="velikost" id="result">Výsledek</div>
-        <button class="text bg-danger" id="play">Hraj</button>
-    </div>
+        
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

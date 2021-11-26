@@ -7,5 +7,14 @@
 }
 h1 {
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
 }
+.velikost{
+    font-size: 120%;
+}
+.images  {
+    width:100%;
+    white-space: nowrap;
+ }
+
+
